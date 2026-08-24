@@ -54,7 +54,7 @@ option {
 }
 
 
-select, input {
+select {
     width: 100%;
     height: 48px;
     border: 1px solid #BBBBBB;
@@ -67,6 +67,20 @@ select, input {
     color: #555555;
     appearance: none;
     cursor: pointer;
+}
+
+input {
+    width: 100%;
+    height: 48px;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    padding-left: 20px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #555555;
+    appearance: none;
 }
 
 
@@ -118,7 +132,7 @@ section {
     font-size: 14px
 }
 
-.currency-value {
+.currency-value, .currency-value-to-convert {
     color: #555555;
     font-weight: 700;
     font-size: 20px;
