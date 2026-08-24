@@ -137,3 +137,7 @@ section {
     font-weight: 700;
     font-size: 20px;
 }
+
+img {
+    box-shadow: #333333;
+}
